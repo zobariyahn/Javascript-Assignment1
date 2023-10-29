@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,24 @@
 <title>Marla to square feet converter</title>
 
 <body>
-    <centre><h1>zobariyah noor</h1></centre>
-    <form>
-<label for="Marla">Value in marla:</label>
-<input class="placeholder" type="number" id="marla" placeholder="Enter marla" step="0.0001" required>
-<br>
-<input class="button" type="button" value="convert" onclick="convertMarlaToSquareFeet()">
+    <centre>
+        <h1>zobariyah noor</h1>
+    </centre>
+    <form onsubmit="convertValues(event)">
+
+        <label for="Marla">Value in marla:</label>
+        <input class="placeholder" type="number" id="marla" placeholder="Enter marla" step="0.0001" required>
+        <br>
+        <button type="submit">convert</button>
+
+
+
 
 
 
     </form>
-<p id="result">Result</p>
-<script src="script.mjs"></script>
+    <p id="result">Result</p>
+    <script src="script.mjs"></script>
 </body>
+
 </html>

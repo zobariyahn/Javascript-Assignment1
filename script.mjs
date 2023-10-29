@@ -1,4 +1,5 @@
-function convertMarlaToSquareFeet(){
+function convertValues(event){
+    event.preventDefault();
 // Get the vale of Marla input
 var marla =parseFloat(document.getElementById("marla").value)
 // conversion factor:1 marla is equal to 272.251 square feet
