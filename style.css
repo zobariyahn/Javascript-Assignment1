@@ -1,0 +1,29 @@
+.body{
+    background-image: url('./bluebells\,_oxfordshire.webp');
+    color: rgb(74, 126, 126);
+    font-size: xx-large;
+    border-radius: 10px 15px;
+    border-color: black;
+    background-color: rgb(15, 88, 64);
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    /* From https://css.glass */
+background: rgba(211, 177, 177, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.7px);
+-webkit-backdrop-filter: blur(2.7px);
+border: 1px solid rgba(224, 178, 178, 0.26);
+}
+.button{
+    font-size: xx-large;
+    font-weight: 100;
+    background-color: rgb(216, 183, 143);
+}
+.placeholder{
+    font-size: xx-large;
+    font-weight: 100;
+}
